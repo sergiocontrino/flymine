@@ -31,25 +31,12 @@ import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
 import org.intermine.api.InterMineAPI;
-import org.intermine.model.bio.MicroArrayAssay;
-import org.intermine.model.bio.MicroArrayResult;
 import org.intermine.objectstore.ObjectStore;
 import org.intermine.objectstore.query.Results;
 import org.intermine.objectstore.query.ResultsRow;
 import org.intermine.web.logic.Constants;
 import org.intermine.web.logic.session.SessionMethods;
 import org.intermine.web.struts.InterMineAction;
-/*import org.jfree.chart.ChartRenderingInfo;
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.axis.Axis;
-import org.jfree.chart.axis.CategoryAxis;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.entity.StandardEntityCollection;
-import org.jfree.chart.plot.CategoryPlot;
-import org.jfree.chart.renderer.AbstractRenderer;
-import org.jfree.chart.renderer.category.LineAndShapeRenderer;
-import org.jfree.chart.servlet.ServletUtilities;
-import org.jfree.data.category.DefaultCategoryDataset;*/
 
 /**
  * Graph the microarray results for a particular gene/experiment
